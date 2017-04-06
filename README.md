@@ -1,4 +1,3 @@
-# AllGraph
 ![alt text](https://static.onthehub.com/production/attachments/15/65778e61-6e9b-e011-969d-0030487d8897/1482ac79-0be8-4599-9ab7-b18020d25ef9.png)
 
 #### UNIVERSIDADE PRESBITERIANA MACKENZIE
