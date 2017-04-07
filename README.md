@@ -16,7 +16,7 @@
 ###### Trabalho de gestão de projeto apresentado
 ###### a Universidade Presbiteriana Mackenzie de
 ###### São Paulo com o objetivo de desenvolvimento
-###### de aplicativo.
+###### de aplicação.
 ###### Professor: Vinicius Miana Bezerra
 ###### Disciplina: Gestão de projetos
 ###### Turma: 04G
