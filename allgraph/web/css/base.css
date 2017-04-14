@@ -17,6 +17,7 @@ fieldset{
     border-style: none;
     box-shadow: 0px 0px 25px gray;
     background-color: #f9f9f9;
+    margin: auto;
 }
 input[type=text], input[type=password], input[type=email]{
     border-radius: 10px;
@@ -44,4 +45,9 @@ input[type=text], input[type=password], input[type=email]{
 }
 .css3button:active{
     background-color: #2F2F2F;
+}
+.span-top-margin{
+    margin: auto;
+    height: 80px;
+    display: block;
 }
