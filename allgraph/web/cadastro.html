@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="shortcut icon" href="img/logo.ico" type="imag/x-icon" />
         <title>AllGraph</title>
         <meta charset="utf-8">
         <link href="css/base.css" rel="stylesheet" type="text/css"/>
@@ -8,20 +9,24 @@
     </head>
     <body>
         <span class="span-top-margin"></span>
-        <form autocomplete="off">
+        <form  id="formularioCadastro" autocomplete="off">
             <fieldset id="#fieldset1">
-                <img alt="allgraph" src="img/titulo.png" title="AllGraph Logo"/><br><br>
+                <center><img alt="allgraph" src="img/titulo.png" title="AllGraph Logo"/></center>
+                 <center><button type="button" class="css3button"><img alt="facebook" src="img/facebook.png" id="facebook"/>  <a href="#">Entrar com o Facebook</a></button></center>
+                <center>
+                <img alt="allgraph" src="img/ou.png" title="Ou"/><br>
                 <input name="email" type="email" placeholder="E-mail:"><br><br>
                 <input name="name" type="text" placeholder="Nome completo:"><br><br>
                 <input name="username" type="text" placeholder="Nome de usuário:"><br><br>
-                <input name="password" type="password" placeholder="Senha:"> <br><br>
-                <input name="cmd" type="hidden" value="Cadastrar">
-                <center><input type="submit" value="Cadastrar" class="css3button"></center>
+                <input name="password" type="password" placeholder="Senha:"> 
+                <input name="cmd" type="hidden" value="Cadastrar"><br>
+                <input type="submit" value="Cadastrar" class="css3button">
+                </center>
             </fieldset>
         </form>
         <br>
         <fieldset id="fieldset2">
-            Tem uma conta? <a href="index.html">Faça login</a>
+            <center>Tem uma conta? <a href="index.html">Faça login</a></center>
         </fieldset>
     </body>
 </html>
