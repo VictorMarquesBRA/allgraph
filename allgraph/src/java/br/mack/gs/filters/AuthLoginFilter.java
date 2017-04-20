@@ -42,7 +42,7 @@ public class AuthLoginFilter implements Filter {
         }
         
         HttpServletResponse hResponse = (HttpServletResponse) response;
-        if(request.getAttribute("usuario").equals(null)){
+        if(request.getAttribute("usuario") == null){
             hResponse.sendRedirect("index.jsp");
         }
         
