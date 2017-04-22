@@ -3,8 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.mack.gs.controller;
+package br.mack.gs.web;
 
+import br.mack.gs.controller.Controller;
+import br.mack.gs.controller.ControllerFactory;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
