@@ -24,7 +24,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author 26MAC-FCI
  */
-@WebFilter(filterName = "AuthLoginFilter", urlPatterns = {"/feed.jsp"})
+@WebFilter(filterName = "AuthLoginFilter", urlPatterns = {"/user/*"})
 public class AuthLoginFilter implements Filter {
      @Override
     public void init(FilterConfig filterConfig) throws ServletException {}
@@ -33,7 +33,7 @@ public class AuthLoginFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         HttpServletResponse httpResponse = (HttpServletResponse) response;
-        if(httpRequest.getAttribute("usuario")==null){
+        if(httpRequest.getSession().getAttribute("usuario")==null){
             httpResponse.sendRedirect("index.jsp");
         }
         chain.doFilter(request, response);
