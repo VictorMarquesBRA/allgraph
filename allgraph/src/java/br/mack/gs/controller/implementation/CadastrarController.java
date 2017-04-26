@@ -22,7 +22,7 @@ public class CadastrarController extends AbstractController {
                password = this.getRequest().getParameter("password"),
                password_to_verify = this.getRequest().getParameter("password_to_verify");
         
-        if(password.equals(password_to_verify)) {
+        if(password.equals(password_to_verify) && password != null && username != null && name != null && email != null) {
             UserAllGraph userag = new UserAllGraph();
             userag.setName(name);
             userag.setUsername(username);
@@ -32,7 +32,7 @@ public class CadastrarController extends AbstractController {
             // Código para checar se usuário já está cadastrado
             
             this.getRequest().getSession().setAttribute("user", userag);
-            this.setResponsePage("index.jsp");
+            this.setResponsePage(this.getRequest().getContextPath() + "/user/feed.jsp");
         }
         
     }

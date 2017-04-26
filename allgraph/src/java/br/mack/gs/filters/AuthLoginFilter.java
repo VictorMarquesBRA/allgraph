@@ -33,8 +33,8 @@ public class AuthLoginFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         HttpServletResponse httpResponse = (HttpServletResponse) response;
-        if(httpRequest.getSession().getAttribute("usuario")==null){
-            httpResponse.sendRedirect("index.jsp");
+        if(httpRequest.getSession().getAttribute("user") == null){
+            httpResponse.sendRedirect(httpRequest.getContextPath() + "/index.jsp");
         }
         chain.doFilter(request, response);
     }
