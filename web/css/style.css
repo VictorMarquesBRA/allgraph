@@ -1,0 +1,79 @@
+/****************************************
+* CSS COMUM
+****************************************/
+
+body {
+    background: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    font-size: 11px;
+}
+
+h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+input[type] {
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+
+/******************************
+* CSS DO CADASTRO E LOGIN
+******************************/
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #CACACA;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    transition: all ease .5s;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #3897f0;
+}
+
+#formularioCadastro,
+#formularioLogin {
+    width: 300px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px #c0c0c0;
+    padding: 10px;
+    text-align: center;
+}
+
+#formularioCadastro {
+    float: left;
+}
+ 
+.containerLogin {
+    width: 650px;
+    margin: 0 auto;
+}
+
+#formularioLogin {
+    float: right;
+    margin-top: 90px;
+}
