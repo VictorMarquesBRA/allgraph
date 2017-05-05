@@ -1,0 +1,67 @@
+body { 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 11px; 
+    word-wrap: break-word; 
+    text-shadow:0px 0px 7px rgba(0, 0, 0, 0.1); 
+    background-color: #F0F0F0; 
+    color: #7D7D7D; 
+    text-align: justify; 
+    font-weight: 400;
+    background-attachment: fixed;  
+    }
+
+.top { 
+    top: 0px; 
+    width: 100%; 
+    left: 0px; 
+    text-align: center; 
+    padding-top: 10px; 
+    padding-right: 0px; 
+    padding-bottom: 10px; 
+    padding-left: 0px; 
+    z-index: 999; 
+    background-color: #A9A9A9;
+    box-shadow:0px 0px 3px #000000;
+    position: fixed; 
+    font-weight: bold;
+    }
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    text-align: left;
+    padding-right: 20px;
+}
+.caixa {
+    background-color: black;
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 250px; 
+}
+.caixa a { 
+display: block; 
+background-color: #FFFFFF; 
+padding: 3px; 
+float: left; 
+width: 50px; 
+margin: 1px; 
+text-align: center; 
+color: #777777; 
+}
+.caixa a:hover { 
+background-color: #1f1e1e; 
+color: #888888;
+}
+
+.home { 
+    background-image: url('http://static.tumblr.com/fhfxoyt/7C5m4e9a3/home.png');
+    width: 3px;
+    margin: 20px;
+}
+.ask { 
+    background-image: url('http://static.tumblr.com/fhfxoyt/3wqm4e98d/ask.png'); 
+}
+
+
+
