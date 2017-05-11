@@ -5,11 +5,18 @@
  */
 package br.mack.gs.entity;
 
+import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
  *
  * @author henrique
  */
-public class UserAllGraph {
+
+@Entity
+public class UserAllGraph implements Serializable {
+    @Id
     private long id_userallgraph;
     private String username, name, email, password;
 
