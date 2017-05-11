@@ -5,14 +5,23 @@
  */
 package br.mack.gs.entity;
 
+import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
 /**
  *
  * @author Fernando Bontorin, 31568343 <fernandorbontorin@gmail.com>
  */
-public class Graphite {
 
+@Entity
+public class Graphite implements Serializable {
+
+    @Id
     private long id;
     private String name, img, cep;
+    @ManyToOne
     private UserAllGraph owner;
 
     public Graphite() {
