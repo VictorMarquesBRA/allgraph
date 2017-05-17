@@ -7,5 +7,15 @@
         <meta charset="utf-8">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+        <script type="text/javascript">
+            function closeNewGraphite(){
+                var elem = document.getElementById('novo-graphite');
+                elem.style.display = 'none';
+            }
+            function openNewGraphite(){
+                var elem = document.getElementById('novo-graphite');
+                elem.style.display = 'block';
+            }
+        </script>
     </head>
     <body>

@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="../css/feed.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="top">
@@ -17,7 +17,7 @@
 
         <!--Menu -->    
         <div id="menu">
-            <h2 style="font-family: 'Satisfy', cursive;">Olá, ${user.name}</h2>
+            <h2 class="safisty">Olá, ${user.name}</h2>
             <img id="menu-user-image" src="../img/default-user.png" alt="User Image"/>
             <div id="menu-buttons">
                 <a class="menu-button" href="#" title="Perfil"><i class="material-icons">account_box</i></a> 
